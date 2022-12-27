@@ -13,9 +13,9 @@ const About = () => {
       <h5>Get To Know</h5>
       <h2 className='about_title'>About Me</h2>
       <div className="container about_container">
-        {/* <div className="about_me"> */}
+        <div className="about_me">
           <img className='about_portrait' src={Wiggles} alt="about_portrait" />
-        {/* </div> */}
+        </div>
         <div className="about_content">
           <div className="about_cards">
             <article className="about_card">

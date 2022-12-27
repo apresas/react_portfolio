@@ -4,26 +4,32 @@
   gap: 10%;
 }
 
-/* .about_me {
+.about_me {
   width: 100%;
-  height: auto;
   border-radius: 2rem;
+  place-items: center;
+  transition: var(--transition);
   background: linear-gradient(
     45deg,
     transparent,
     var(--color-primary),
     transparent
   );
-  place-items: center;
-} */
+}
 
 /* .about_me img {
   border-radius: 2rem;
   height: auto;
   overflow: hidden;
-  transform: rotate(10deg);
+  transform: rotate(0deg);
   transition: var(--transition);
   background: var(--color-primary-varient);
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
   padding: 2rem;
   display: flex;
   align-items: center;
@@ -31,22 +37,22 @@
 } */
 
 .about_portrait {
-  height: auto;
+  /* height: auto; */
   width: 100%;
   border-radius: 2rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 0rem;
   padding: 2rem 2rem;
-      background: linear-gradient(
+  background: linear-gradient(
     45deg,
     transparent,
     var(--color-primary),
     transparent
   );
-
+  transition: var(--transition);
 }
 
 .about_me img:hover {
-  transform: rotate(0);
+  transform: rotate(15deg);
 }
 
 .about_cards {
@@ -90,6 +96,41 @@
   color: var(--color-light);
 }
 
+/* ========== Media Queries (LRG) ============ */
+@media screen and (max-width: 1800px) {
+  /* .about_container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  } */
+
+
+
+  /* .about_portrait {
+    transform: scale(0.6);
+    margin: -7rem 0 -6rem 0;
+  } */
+
+  .about_me {
+    /* transform: scale(0.75); */
+    border-radius: 2rem;
+    background: red;
+    place-items: center;
+    transition: var(--transition);
+    background: linear-gradient(
+      45deg,
+      transparent,
+      var(--color-primary),
+      transparent
+    );
+    margin: 0rem 0;
+
+  }
+
+  .about_content p {
+    margin: 1rem 0 1.5rem;
+  }
+}
+
 /* ========== Media Queries (MED) ============ */
 @media screen and (max-width: 1024px) {
   .about_container {
@@ -98,12 +139,28 @@
   }
 
   .about_title {
-    margin-bottom: 0;
+    margin-bottom: -2rem;
   }
 
-  .about_portrait {
+  /* .about_portrait {
     transform: scale(0.6);
     margin: -7rem 0 -6rem 0;
+  } */
+
+  .about_me {
+    transform: scale(0.5);
+    border-radius: 2rem;
+    background: red;
+    place-items: center;
+    transition: var(--transition);
+    background: linear-gradient(
+      45deg,
+      transparent,
+      var(--color-primary),
+      transparent
+    );
+    margin: -7rem 0;
+
   }
 
   .about_content p {
@@ -123,24 +180,34 @@
       transparent
     );
     place-items: center;
-  }
-  .about_portrait {
-    height: auto;
+  }  
+  .about_me {
+    transform: scale(0.75);
     border-radius: 2rem;
-    margin: -3.75rem 0 -3rem 0;
-    padding: 1.5rem;
-        background: linear-gradient(
+    background: red;
+    place-items: center;
+    transition: var(--transition);
+    background: linear-gradient(
       45deg,
       transparent,
       var(--color-primary),
       transparent
     );
+    margin: 0rem 0;
 
   }
 
-  .about_portrait::before {
-    content: "";
-    background-color: red;
+  .about_portrait {
+    height: auto;
+    width: 100%;
+    border-radius: 2rem;
+    background: linear-gradient(
+      45deg,
+      transparent,
+      var(--color-primary),
+      transparent
+    );
+    transition: var(--transition);
   }
 
   .about_cards {
