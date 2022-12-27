@@ -1,0 +1,158 @@
+.about_container {
+  display: grid;
+  grid-template-columns: 40% 50%;
+  gap: 10%;
+}
+
+/* .about_me {
+  width: 100%;
+  height: auto;
+  border-radius: 2rem;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
+  place-items: center;
+} */
+
+/* .about_me img {
+  border-radius: 2rem;
+  height: auto;
+  overflow: hidden;
+  transform: rotate(10deg);
+  transition: var(--transition);
+  background: var(--color-primary-varient);
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.about_portrait {
+  height: auto;
+  width: 100%;
+  border-radius: 2rem;
+  margin-bottom: 2.5rem;
+  padding: 2rem 2rem;
+      background: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
+
+}
+
+.about_me img:hover {
+  transform: rotate(0);
+}
+
+.about_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.about_card {
+  background: var(--color-bg-varient);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.about_card:hover {
+  background: transparent;
+  border-color: var(--color-primary-varient);
+  cursor: default;
+}
+
+.about_icon {
+  color: var(--color-primary);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.about_card h5 {
+  font-size: 0.95rem;
+}
+
+.about_card small {
+  font-size: 0.7rem;
+  color: var(--color-light);
+}
+
+.about_content p {
+  margin: 2rem 0 2.6rem;
+  color: var(--color-light);
+}
+
+/* ========== Media Queries (MED) ============ */
+@media screen and (max-width: 1024px) {
+  .about_container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .about_title {
+    margin-bottom: 0;
+  }
+
+  .about_portrait {
+    transform: scale(0.6);
+    margin: -7rem 0 -6rem 0;
+  }
+
+  .about_content p {
+    margin: 1rem 0 1.5rem;
+  }
+}
+
+/* ========== Media Queries (SM) ============ */
+@media screen and (max-width: 600px) {
+  .about_me > img::before {
+    content: '';
+    border-radius: 2rem;
+    background: linear-gradient(
+      45deg,
+      transparent,
+      var(--color-primary),
+      transparent
+    );
+    place-items: center;
+  }
+  .about_portrait {
+    height: auto;
+    border-radius: 2rem;
+    margin: -3.75rem 0 -3rem 0;
+    padding: 1.5rem;
+        background: linear-gradient(
+      45deg,
+      transparent,
+      var(--color-primary),
+      transparent
+    );
+
+  }
+
+  .about_portrait::before {
+    content: "";
+    background-color: red;
+  }
+
+  .about_cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .about_content {
+    text-align: center;
+  }
+
+  .about_content p {
+    margin: 1.5rem 0;
+  }
+}

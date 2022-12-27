@@ -1,0 +1,75 @@
+[
+      {
+        "id": 1,
+        "image": "../assets/mobileApp_img.png",
+        "title": "Mobile Application: CURD Application",
+        "lang": "Java, AndroidX, AndroidStudio",
+        "github": "https://github.com/apresas/Course_Scheduler",
+        "demo": "https://dribbble.com"
+      },
+      {
+        "id": 2,
+        "image": "../assets/software2_img.png",
+        "title": "Software 2: CURD Application w/Database",
+        "lang": "Java, SceneBuilder, SQL, JDBC",
+        "github": "https://github.com/apresas/BikeShopAppTest",
+        "demo": "https://dribbble.com"
+      },
+      {
+        "id": 3,
+        "image": "../assets/capstone_img.png",
+        "title": "Capstone: Mobile Scheduling App",
+        "lang": "Java, AndroidX, AndroidStudio",
+        "github": "https://github.com/apresas/Capstone_Scheduler",
+        "demo": "https://dribbble.com"
+      },
+      {
+        "id": 4,
+        "image": "../assets/image_1.png",
+        "title": "NHL API: NHL Roster App",
+        "lang": "React, Axios, FramerMotion, Bootstrap",
+        "github": "https://github.com/apresas",
+        "demo": "https://dribbble.com"
+      },
+      {
+        "id": 5,
+        "image": "../assets/image_1.png",
+        "title": "React + Firebase User Authentication",
+        "lang": "React, Axios, Firebase",
+        "github": "https://github.com/apresas/React_Firebase_UserAuth",
+        "demo": "https://dribbble.com"
+      },
+      {
+        "id": 6,
+        "image": "../assets/image_1.png",
+        "title": "React Shopping Cart",
+        "lang": "React, TypeScript, Axios, Bootstrap",
+        "github": "https://github.com/apresas/react_shoppingCart",
+        "demo": "https://dribbble.com"
+      },
+      {
+        "id": 7,
+        "image": "../assets/uxDesign_img.png",
+        "title": "UX Design: Tourism Website",
+        "lang": "XD, HTML, CSS",
+        "github": "https://github.com",
+        "demo": "https://dribbble.com"
+      },
+      {
+        "id": 8,
+        "image": "../assets/crm_img.png",
+        "title": "CRM Interface Mockup",
+        "lang": "XD, Illustrator",
+        "github": "https://github.com",
+        "demo": "https://dribbble.com"
+      },
+      {
+        "id": 9,
+        "image": "../assets/musicPlayer_img.png",
+        "title": "Music Player Widget",
+        "lang": "HTML, CSS, JavaScript",
+        "github": "https://github.com",
+        "demo": "https://dribbble.com"
+      }
+
+]
