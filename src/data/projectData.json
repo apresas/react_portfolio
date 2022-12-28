@@ -25,15 +25,15 @@
       },
       {
         "id": 4,
-        "image": "../assets/image_1.png",
+        "image": "../assets/roster_img.png",
         "title": "NHL API: NHL Roster App",
         "lang": "React, Axios, FramerMotion, Bootstrap",
-        "github": "https://github.com/apresas",
+        "github": "https://github.com/apresas/nhl-api-roster-manager",
         "demo": "https://dribbble.com"
       },
       {
         "id": 5,
-        "image": "../assets/image_1.png",
+        "image": "../assets/auth_img.png",
         "title": "React + Firebase User Authentication",
         "lang": "React, Axios, Firebase",
         "github": "https://github.com/apresas/React_Firebase_UserAuth",
@@ -41,7 +41,7 @@
       },
       {
         "id": 6,
-        "image": "../assets/image_1.png",
+        "image": "../assets/store_img.png",
         "title": "React Shopping Cart",
         "lang": "React, TypeScript, Axios, Bootstrap",
         "github": "https://github.com/apresas/react_shoppingCart",

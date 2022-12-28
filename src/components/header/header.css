@@ -71,7 +71,7 @@ header {
 }
 
 .portrait img:hover {
-  margin: 2.5rem 0rem 0rem 0rem;
+  margin: 0rem 0rem 2.5rem 0rem;
   transition: ease-in-out 0.2s;
 }
 
